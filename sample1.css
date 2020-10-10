@@ -1,10 +1,16 @@
 body{
     margin: 0;
     color:#000000;
-    background: #aaaaaa;
+    background: #aaaaaa
 no-repeat
 }
+
 h1{
     text-align: center;
     font:oblique
+}
+
+li{
+    margin-left: 30%;
+    color:blue;
 }
