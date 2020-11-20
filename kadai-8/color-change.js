@@ -2,7 +2,7 @@ today = new date();
 
 document.write(today);
 
-switch(today % 4){
+/*switch(today.getseconds() % 4){
 
     case 0:document.bgColor = "red"
         break;
