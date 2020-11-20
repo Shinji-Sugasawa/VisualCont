@@ -15,4 +15,4 @@ document.write(today);
 
     default:document.bgColor = "black"
 
-}
+}*/
