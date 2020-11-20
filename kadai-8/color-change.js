@@ -1,18 +1,17 @@
-today = new date();
-
+today = new Date();
 document.write(today);
 
-/*switch(today.getseconds() % 4){
-
-    case 0:document.bgColor = "red"
+switch(today.getSeconds() % 4){
+    
+    case 0: document.bgColor = "blue";
         break;
 
-    case 1:document.bgColor = "blue"
+    case 1: document.bgColor = "red";
         break;
 
-    case 2:document.bgColor = "blue"
-        break
+    case 2: document.bgColor = "yellow";
+        break;
 
-    default:document.bgColor = "black"
-
-}*/
+    default:
+        document.bgColor = "black";
+}
