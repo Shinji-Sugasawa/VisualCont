@@ -1,4 +1,22 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color:rgba(45, 58, 231, 0.9);
+  }
 .logo{
-    width: 124px;
-    height:124px;
+    width: 70px;
+    height:70px;
 }
+.header-left{
+    float:left;
+}
+.header-right{
+    float:right;
+    background-color: rgba(250, 250, 250, 0.3);
+}
+.header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
