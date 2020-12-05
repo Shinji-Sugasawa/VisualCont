@@ -22,22 +22,26 @@ header{
     line-height: 67px;
     color: white;
     display: block;
-    border:3px solid;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
     border-bottom:transparent;
-    border-color:black;
     text-align:center;
     font-size: 30px;
+    opacity:0.8;
+}
+
+.cuisine:hover{
+    opacity:1;
 }
 
 .main{
-    padding:180px 0 100px 0;
+    padding:200px 0 300px 0;
     background-image:url(./img/foodcourt.jpg);
     background-size:cover;
     text-align:center;
+    opacity:0.5;
+    filter:blur(1px);
 }
 
 .main h2{
-    font-size:50px;
+    font-size:75px;
+
 }
