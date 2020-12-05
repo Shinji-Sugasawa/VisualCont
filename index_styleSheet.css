@@ -32,9 +32,12 @@ header{
 }
 
 .main{
-    padding:180px 0 200px 0;
-    background-image:url(./img/foodcourt-change.jpg);
+    padding:180px 0 100px 0;
+    background-image:url(./img/foodcourt.jpg);
     background-size:cover;
     text-align:center;
 }
 
+.main h2{
+    font-size:50px;
+}
