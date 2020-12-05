@@ -17,6 +17,14 @@ header{
 .header-right a {
     line-height: 70px;
     padding: 0 25px;
-    color: white;
+    color: black;
     display: block;
+  }
+  .container h1{
+      color:black;
+      text-align: center;
+      font-size:50px;
+  }
+  .container{
+      float:left;
   }
