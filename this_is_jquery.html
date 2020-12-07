@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/demos/style.css" />
+    <link href="index_stylesheet.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+      $( "#accordion" ).accordion({
+      collapsible: true
+    });
+    });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="./img/chibani-.png">
+      </div>
+      <div class="header-left">
+        <a href="#" class="cuisine">工大ランチ</a>
+      </div>
+      <div class="header-left">
+        <a href="#" class="cuisine">カレー</a>
+      </div>
+      <div class="header-left">
+        <a href="#" class="cuisine">麺類</a>
+      </div>
+      <div class="header-left">
+        <a href="#" class="cuisine">一品 / サラダ</a>
+      </div>
+    </div>
+</header>
+
+<div class="main">
+  <div class="massage">
+    <h2>WELCOME TO CIT DINING.</h2>
+  </div>
+</div>
+
+<div id="accordion">
+  <h3>セクション 1</h3>
+  <div>
+    <p>
+        全てのパネルを折りたたんだ状態にすることが出来るアコーディオンです。
+    </p>
+  </div>
+  <h3>セクション 2</h3>
+  <div>
+      <p>セクション2のコンテンツ領域です。</p>
+  </div>
+  <h3>セクション 3</h3>
+  <div>
+    <p>セクション3のコンテンツ領域です。</p>
+    <ul>
+      <li>リスト項目1</li>
+      <li>リスト項目2</li>
+      <li>リスト項目3</li>
+    </ul>
+  </div>
+  <h3>セクション 4</h3>
+  <div>
+      <p>セクション4のコンテンツ領域です。</p>
+  </div>
+</div>
+
+
+</body>
+</html>
